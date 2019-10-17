@@ -1,0 +1,87 @@
+.container {
+    with:50vw;
+    height: 50vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    widht: 500px;
+    heigt: 500px;
+    background: #fff;
+}
+
+.box1 {
+    justify-content: center;
+    align-items: center;
+    widht: 200px;
+    heigt: 200px;
+    background: rgb(239, 228, 176);
+}
+
+.box2 {
+    justify-content: center;
+    align-items: center;
+    widht: 400px;
+    heigt: 200px;
+    background: rgb(239, 228, 176);
+}
+.box3 {
+    justify-content: center;
+    align-items: center;
+    widht: 400px;
+    heigt: 200px;
+    background: rgb(176, 182, 239);
+}
+body {
+    margin: 0px;
+}
+
+.botaoLogin {
+    width: 350px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+}
+
+.campoPlacar {
+    width: 100px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+}
+
+.text1 {}
+
+.type3 {
+    font-size: 25px;
+    font-family: arial;
+}
+.botao1 {
+    width: 150px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: greenyellow;
+    font-size: 18px;
+}
+.LegendPresente {
+    border: solid 1px #080808;
+    background-color: greenyellow !important;
+
+}
+.divCenter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

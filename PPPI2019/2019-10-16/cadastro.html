@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstdap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div>
+        <h3>
+            Cadastro de Jogos
+        </h3>
+    </div>
+    <form action="http://127.0.0.1/PPPI2019/2019-10-16/inserir.php" method="POST" name="incluir">
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Equipe</label>
+            <div class="col-sm-10">
+                <input class="form-control " type="text" name='equipe' placeholder="Nome da Equipe">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Jogos</label>
+            <div class="col-sm-10">
+                <input class="form-control " type="text" name='jogos' placeholder="nro de Jogos">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Vitorias</label>
+            <div class="col-sm-10">
+                <input class="form-control " type="text" name='vitorias' placeholder="nro de vitorias">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Empates</label>
+            <div class="col-sm-10">
+                <input class="form-control " type="text" name='empates' placeholder="nro de empates">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Derrotas</label>
+            <div class="col-sm-10">
+                <input class="form-control " type="text" name='derrotas' placeholder="nro de derrotas">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Gols Pró</label>
+            <div class="col-sm-10">
+                <input class="form-control " type="text" name='golsPro' placeholder="nro de gols feitos">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Gols Contra</label>
+            <div class="col-sm-10">
+                <input class="form-control " type="text" name='golsContra' placeholder="nro gols sofridos">
+            </div>
+        </div>
+        <div class='form-group'>
+            <label>Símbolo</label>
+            <br>
+            <input type="file" name="simbolo" />
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-10">
+
+            </div>
+            <a href='\PPPI2019\2019-10-09\index.php' class='btn btn-danger'>VOLTAR</a>;
+            <button type="submit" class="btn btn-primary">SALVAR</button>
+        </div>
+        </div>
+    </form>
+
+    </div>
+</body>
+
+</html>
